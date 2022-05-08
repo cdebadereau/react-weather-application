@@ -15,7 +15,11 @@ export default function Weather() {
             />
           </div>
           <div className="col-3">
-            <input type="submit" value="Search" className="btn btn-primary" />
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-dark w-100"
+            />
           </div>
         </div>
       </form>
@@ -30,7 +34,8 @@ export default function Weather() {
             src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
             alt="Partially cloudy"
           />
-          19°C
+          <span className="temperature">19</span>
+          <span className="unit">°C</span>
         </div>
         <div className="col-6">
           <ul>
