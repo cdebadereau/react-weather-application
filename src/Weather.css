@@ -20,14 +20,14 @@
 }
 
 .Weather canvas {
-  margin-right: 10px;
+  margin: 10px 0;
 }
 
 .Weather .temperature {
   font-weight: bold;
   font-size: 50px;
   color: black;
-  line-height: 60px;
+  line-height: 1;
   position: relative;
   top: 15px;
   margin-right: 5px;
